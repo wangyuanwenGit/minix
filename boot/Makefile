@@ -90,7 +90,7 @@ AFLAGS=		-I${MINIXSRCDIR}
 I86CPPFLAGS=	-mi86 -Was-ncc
 I86LDFLAGS=	-mi86 -Was-ncc -.o -com
 
-STRIPFLAG=	-s
+STRIPFLAG=	-s #RV 这里有个小心得
 
 CLEANFILES+=	rawfs86.c edparams.c cdbootblock.s dosboot.c
 
